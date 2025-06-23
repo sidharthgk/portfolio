@@ -225,12 +225,13 @@ export function ProjectsSection() {
                 >
                   <Card className="h-full border-2 border-border">
                     <CardHeader className="pb-4">
-                      <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900 rounded-lg overflow-hidden">
+                      <div className="relative aspect-video bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900 rounded-lg overflow-hidden">
                         <Image
                           src={displayProjects[selectedProject].image}
                           alt={displayProjects[selectedProject].title}
-                          fill
-                          className="object-cover"
+                          width={800}
+                          height={450}
+                          className="object-cover w-full h-full"
                           sizes="(max-width: 1024px) 100vw, 700px"
                           priority
                         />
