@@ -75,7 +75,7 @@ export function AboutSection() {
               <div className="space-y-6">
                 <div className="prose prose-lg dark:prose-invert max-w-none">
                   <p className="text-lg leading-relaxed text-muted-foreground">
-                    I'm <span className="text-blue-600 dark:text-blue-400 font-semibold">Sidharth GK</span>, 
+                    I&apos;m <span className="text-blue-600 dark:text-blue-400 font-semibold">Sidharth GK</span>, 
                     a passionate developer from India, exploring the fascinating intersections of{' '}
                     <span className="text-purple-600 dark:text-purple-400 font-semibold">Software Development</span>,{' '}
                     <span className="text-teal-600 dark:text-teal-400 font-semibold">AI</span>, and{' '}
@@ -92,7 +92,7 @@ export function AboutSection() {
                   <p className="text-lg leading-relaxed text-muted-foreground">
                     My journey has been driven by curiosity and a desire to build innovative solutions. 
                     From developing AI-powered applications to creating IoT devices that help people, 
-                    I'm always excited about the next challenge. <span className="font-semibold text-foreground">Always curious, always building.</span>
+                    I&apos;m always excited about the next challenge. <span className="font-semibold text-foreground">Always curious, always building.</span>
                   </p>
                 </div>
 
@@ -165,8 +165,8 @@ export function AboutSection() {
                     <Lightbulb className="w-8 h-8 text-yellow-600 dark:text-yellow-400 mx-auto mb-4" />
                     <h4 className="font-semibold text-foreground mb-3">What Drives Me</h4>
                     <p className="text-sm text-muted-foreground">
-                      "The intersection of creativity and logic in programming fascinates me. 
-                      Every line of code is an opportunity to solve a problem and make someone's life better."
+                      The intersection of creativity and logic in programming fascinates me. 
+                      Every line of code is an opportunity to solve a problem and make someone&apos;s life better.
                     </p>
                   </CardContent>
                 </Card>

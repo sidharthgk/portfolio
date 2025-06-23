@@ -422,7 +422,7 @@ export function TimelineSection() {
           {/* Timeline */}
           <div className="relative">
             {/* Timeline Line */}
-            <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-blue-400 via-purple-500 via-teal-500 to-pink-500 md:transform md:-translate-x-1/2 rounded-full"></div>
+            <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-blue-400 via-purple-500 to-pink-500 md:transform md:-translate-x-1/2 rounded-full"></div>
 
             {/* Timeline Events */}
             <div className="space-y-16">
@@ -557,9 +557,9 @@ export function TimelineSection() {
                 </h3>
                 <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
                   Every milestone has been a stepping stone toward bigger goals. 
-                  I'm excited about the future opportunities to create impactful 
+                  I&apos;m excited about the future opportunities to create impactful 
                   solutions, contribute to the tech community, and push the boundaries 
-                  of what's possible with technology.
+                  of what&apos;s possible with technology.
                 </p>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-6">
                   {[

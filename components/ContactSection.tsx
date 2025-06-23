@@ -115,10 +115,10 @@ export function ContactSection() {
           {/* Section Header */}
           <motion.div variants={itemVariants} className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Let's Collaborate
+              Let&apos;s Collaborate
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Interested in AI, IoT, or innovative tech solutions? Let's connect and create something amazing together!
+              Interested in AI, IoT, or innovative tech solutions? Let&apos;s connect and create something amazing together!
             </p>
           </motion.div>
 
@@ -208,7 +208,7 @@ export function ContactSection() {
                     <span>Send a Message</span>
                   </CardTitle>
                   <p className="text-muted-foreground">
-                    Fill out the form below and I'll get back to you as soon as possible!
+                    Fill out the form below and I&apos;ll get back to you as soon as possible!
                   </p>
                 </CardHeader>
                 <CardContent className="space-y-6">
@@ -332,7 +332,7 @@ export function ContactSection() {
                 </h3>
                 <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
                   Whether you have a project in mind, want to collaborate on research, 
-                  or just want to chat about technology, I'm always excited to connect 
+                  or just want to chat about technology, I&apos;m always excited to connect 
                   with fellow innovators and creators.
                 </p>
                 <div className="flex flex-wrap justify-center gap-2">
@@ -347,9 +347,9 @@ export function ContactSection() {
                     asChild
                     className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-3 text-lg font-semibold rounded-xl"
                   >
-                    <a href="mailto:sidharthgk2003@gmail.com?subject=Let's Collaborate!">
+                    <a href="mailto:sidharthgk2003@gmail.com?subject=Let&apos;s Collaborate!">
                       <Calendar className="w-5 h-5 mr-2" />
-                      Let's Schedule a Call
+                      Let&apos;s Schedule a Call
                     </a>
                   </Button>
                 </div>

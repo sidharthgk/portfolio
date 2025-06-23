@@ -6,6 +6,7 @@ import { ExternalLink, Github, Award, Users, Zap, Heart, Eye, EyeOff } from 'luc
 import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
+import Image from 'next/image';
 
 export function ProjectsSection() {
   const [selectedProject, setSelectedProject] = useState(0);
@@ -225,10 +226,13 @@ export function ProjectsSection() {
                   <Card className="h-full border-2 border-border">
                     <CardHeader className="pb-4">
                       <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900 rounded-lg overflow-hidden">
-                        <img
+                        <Image
                           src={displayProjects[selectedProject].image}
                           alt={displayProjects[selectedProject].title}
-                          className="w-full h-full object-cover"
+                          fill
+                          className="object-cover"
+                          sizes="(max-width: 1024px) 100vw, 700px"
+                          priority
                         />
                       </div>
                     </CardHeader>
