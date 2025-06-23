@@ -239,7 +239,7 @@ export function AchievementsSection() {
                 </h3>
                 <p className="text-muted-foreground">
                   These achievements represent just the beginning of my journey. 
-                  I'm constantly pushing boundaries and seeking new challenges 
+                  I&apos;m constantly pushing boundaries and seeking new challenges 
                   to grow both personally and professionally.
                 </p>
                 <div className="flex flex-wrap justify-center gap-2 pt-4">

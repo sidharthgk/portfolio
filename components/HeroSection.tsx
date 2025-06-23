@@ -43,7 +43,7 @@ export function HeroSection() {
       setCurrentLearning((prev) => (prev + 1) % learningTopics.length);
     }, 3000);
     return () => clearInterval(interval);
-  }, []);
+  }, [learningTopics.length]);
 
   useEffect(() => {
     const coffeeInterval = setInterval(() => {
@@ -210,7 +210,7 @@ export function HeroSection() {
                 >
                   👋
                 </motion.div>
-                <span className="text-blue-200 font-medium">Hello, I'm</span>
+                <span className="text-blue-200 font-medium">Hello, I&apos;m</span>
                 <Sparkles className="w-4 h-4 text-yellow-400" />
               </motion.div>
               
@@ -344,7 +344,7 @@ export function HeroSection() {
                 }}
                 className="px-8 py-6 text-lg font-semibold rounded-xl border-2 border-blue-400/30 bg-blue-500/10 text-blue-200 hover:bg-blue-500/20 hover:border-blue-400/50 backdrop-blur-sm transition-all duration-300"
               >
-                Let's Connect
+                Let&apos;s Connect
               </Button>
             </motion.div>
 
