@@ -7,6 +7,7 @@ import { AboutSection } from '@/components/AboutSection';
 import { SkillsSection } from '@/components/SkillsSection';
 import { ProjectsSection } from '@/components/ProjectsSection';
 import { AchievementsSection } from '@/components/AchievementsSection';
+import { TestimonialsSection } from '@/components/TestimonialsSection';
 import { TimelineSection } from '@/components/TimelineSection';
 import { ContactSection } from '@/components/ContactSection';
 import { Navigation } from '@/components/Navigation';
@@ -17,7 +18,7 @@ export default function Home() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['hero', 'about', 'skills', 'projects', 'achievements', 'timeline', 'contact'];
+      const sections = ['hero', 'about', 'skills', 'projects', 'achievements', 'testimonials', 'timeline', 'contact'];
       const scrollPosition = window.scrollY + window.innerHeight / 2;
 
       for (const section of sections) {
@@ -60,6 +61,10 @@ export default function Home() {
           
           <section id="achievements">
             <AchievementsSection />
+          </section>
+          
+          <section id="testimonials">
+            <TestimonialsSection />
           </section>
           
           <section id="timeline">
