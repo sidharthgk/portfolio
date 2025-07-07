@@ -21,6 +21,7 @@ export function Navigation({ activeSection }: NavigationProps) {
     { id: 'skills', label: 'Skills' },
     { id: 'projects', label: 'Projects' },
     { id: 'achievements', label: 'Achievements' },
+    { id: 'testimonials', label: 'Testimonials' },
     { id: 'timeline', label: 'Journey' },
     { id: 'contact', label: 'Contact' },
   ];
